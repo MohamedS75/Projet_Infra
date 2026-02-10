@@ -1,6 +1,6 @@
 # 🚀 Challenge Cloud & DevOps 
 
-Ce dépôt documente mon apprentissage intensif des technologies Cloud.
+Ce dépôt documente mon apprentissage des technologies Cloud.
 
 ##  Fondations Linux & Automatisation Bash
 L'objectif était de comprendre comment déployer une stack web complète à partir de zéro sur Ubuntu.
