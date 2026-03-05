@@ -15,8 +15,9 @@ Pour déployer la stack complète (Nginx & PostgreSQL) :
 ```bash
 chmod +x install_all.sh
 ./install_all.sh
+```
 
-## 🕵️ Gestion des Logs & Auto-remédiation
+ # 🕵️ Gestion des Logs & Auto-remédiation
 Mise en place d'un système pour surveiller et relancer les services en cas de plantage.
 
 ### Ce que j'ai réalisé :
@@ -29,3 +30,4 @@ Pour voir le serveur travailler et noter ses rapports en temps réel :
 
 ```bash
 tail -f mon_journal.log
+```
