@@ -17,7 +17,7 @@ chmod +x install_all.sh
 ./install_all.sh
 ```
 
- # 🕵️ Gestion des Logs & Auto-remédiation
+ ## 🕵️ Gestion des Logs & Auto-remédiation
 Mise en place d'un système pour surveiller et relancer les services en cas de plantage.
 
 ### Ce que j'ai réalisé :
@@ -31,3 +31,10 @@ Pour voir le serveur travailler et noter ses rapports en temps réel :
 ```bash
 tail -f mon_journal.log
 ```
+
+## 🔄 Disponibilité & Résilience
+Objectif : Garantir que la surveillance tourne sans interruption.
+
+### Ce que j'ai réalisé :
+* **Persistance** : Configuration de Cron pour que le monitoring soit actif 24h/24.
+* **Autonomie** : Validation du fonctionnement du script en arrière-plan sans session utilisateur ouverte.
